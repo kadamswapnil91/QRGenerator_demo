@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My QR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wG-rj-kz3">
+                                <rect key="frame" x="20" y="105" width="374" height="94"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="75"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="generate your QR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRF-DT-H9n">
+                                <rect key="frame" x="238.5" y="187" width="155.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="H6s-th-ZGs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="pexels-kampus-production-7289731" translatesAutoresizingMaskIntoConstraints="NO" id="0UY-f9-KL3">
+                                <rect key="frame" x="0.0" y="228" width="414" height="668"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0UY-f9-KL3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="L1G-MH-8c3"/>
+                            <constraint firstAttribute="bottom" secondItem="0UY-f9-KL3" secondAttribute="bottom" id="LgZ-wZ-0qS"/>
+                            <constraint firstItem="0wG-rj-kz3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="Ucf-Xw-IvF"/>
+                            <constraint firstItem="0wG-rj-kz3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VPW-OB-bB1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0wG-rj-kz3" secondAttribute="trailing" constant="20" id="Zsb-4C-ogg"/>
+                            <constraint firstItem="aRF-DT-H9n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="fCM-cY-VET"/>
+                            <constraint firstItem="aRF-DT-H9n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="143" id="hig-BW-0ZC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRF-DT-H9n" secondAttribute="trailing" constant="20" id="nnN-ba-dG8"/>
+                            <constraint firstItem="0UY-f9-KL3" firstAttribute="top" secondItem="aRF-DT-H9n" secondAttribute="bottom" constant="20" id="xb3-cA-aOG"/>
+                            <constraint firstItem="0UY-f9-KL3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zlT-Xq-wnG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pexels-kampus-production-7289731" width="2160" height="3240"/>
+    </resources>
+</document>
